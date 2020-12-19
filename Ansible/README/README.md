@@ -60,16 +60,9 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 Rather than indiviudlly configuring hundreds of VMS
 
 The playbook implements the following tasks:
-- Download Filebeat .deb
-- Install Filebeat
-- Drop in Config file
-- Setup filebeat
-- Start filebeat service
-- Download metricbeat .deb
-- Install metricbeat
-- Drop in Config file
-- Setup metricbeat
-- Start metricbeat service
+- Install Docker
+- Install Python3-pip
+- Install docker module
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
