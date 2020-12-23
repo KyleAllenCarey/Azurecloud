@@ -88,4 +88,4 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the filebeat_and_metricbeat_playbook.yml file to /etc/ansible.
 - Update the hosts file to include the host ip adress and which ip addresses you'd like filebeat and metricbeat to monitor.
-- Run the playbook, and navigate to (Local Host)/app/kibana to check that the installation worked as expected.
+- Run the playbook, and navigate to "40.70.16.217/app/kibana" in a browser to check that the installation worked as expected.
